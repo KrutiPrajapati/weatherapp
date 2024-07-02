@@ -9,7 +9,7 @@ class WeatherServices {
   Future<WeatherResponse> getWeather(String city) async {
     final queryParameters = {
       'q': city,
-      'appid': '47da02b01a29ec72245513893afc6ee1',
+      'appid': 'your-api-key-here',
       'units': 'metric',
     };
 
